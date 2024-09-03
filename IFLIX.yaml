@@ -10,3 +10,14 @@ proxies:
   network: ws
   ws-opts:
     path: "/trojan"
+- name: ikd iflik
+  type: trojan
+  server: id-ikd5.estebuh.my.id
+  port: 443
+  password: 57ae45f9-0aa5-48ec-92eb-d49ba970a1af
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"

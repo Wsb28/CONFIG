@@ -1,5 +1,5 @@
 proxies:
-- name: Iflix
+#- name: Iflix
   type: trojan
   server: id5.natanvpn.xyz
   port: 443

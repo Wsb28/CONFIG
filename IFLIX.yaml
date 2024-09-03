@@ -21,3 +21,6 @@ proxies:
   network: ws
   ws-opts:
     path: "/trojan"
+    headers:
+      Host: sg-4.test3.net
+    udp: true

@@ -1,5 +1,5 @@
 proxies:
-#- name: Iflix
+- name: Iflix
   type: trojan
   server: id5.natanvpn.xyz
   port: 443
@@ -10,6 +10,7 @@ proxies:
   network: ws
   ws-opts:
     path: "/trojan"
+
 - name: ikd iflik
   type: trojan
   server: id-ikd5.estebuh.my.id

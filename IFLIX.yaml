@@ -22,5 +22,4 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sg-4.test3.net
-    udp: true
+      Host: hwvip.iflix.com

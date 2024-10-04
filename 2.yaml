@@ -1,0 +1,12 @@
+proxies:
+- name: Iflix
+  type: trojan
+  server: id-wjy2.estebuh.my.id
+  port: 443
+  password: 096ebfce-8ef0-4939-994e-8b6b84c3655b
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"

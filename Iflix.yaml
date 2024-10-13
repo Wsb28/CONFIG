@@ -1,0 +1,26 @@
+proxies:
+- name: Iflix
+  type: trojan
+  server: id9.natanvpn.xyz
+  port: 443
+  password: e88bd391-d94d-4f04-81c6-134e8a5a2b20
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+
+- name: ikd iflik
+  type: trojan
+  server: id18.natanvpn.xyz
+  port: 443
+  password: a1ae81c1-106f-4d4c-9f0b-f96e809b305f
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: hwvip.iflix.com

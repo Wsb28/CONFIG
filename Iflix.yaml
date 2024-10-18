@@ -1,5 +1,5 @@
 proxies:
-- name: Iflix1
+- name: flik
   type: trojan
   server: id18.natanvpn.xyz
   port: 443
@@ -10,3 +10,6 @@ proxies:
   network: ws
   ws-opts:
     path: "/trojan"
+    headers:
+      Host: hwvip.iflix.com
+

@@ -13,3 +13,17 @@ proxies:
     headers:
       Host: hwvip.iflix.com
 
+
+- name: flik1
+  type: trojan
+  server: id-ikd5.estebuh.my.id
+  port: 443
+  password: 117c47c4-9c74-4ee1-942c-c726f85d05fc
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: hwvip.iflix.com

@@ -1,14 +1,14 @@
 proxies:
-- name: flik1natan
-  server: id18.natanvpn.xyz
-  port: 443
+- name: NATAN
   type: trojan
-  password: a1ae81c1-106f-4d4c-9f0b-f96e809b305f
-  skip-cert-verify: true
+  server: id5.natanvpn.xyz
+  port: 443
+  password: 4566a99b-36cd-4795-9057-074ff626b1f5
+  udp: true
   sni: hwvip.iflix.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
       Host: hwvip.iflix.com
-  udp: true
